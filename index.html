@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="background">
+        <div class="logo-panel">
+            <img src="assets/odinlogo.png" alt="Logo for Odin Project">
+            <div class="logo-text">ODIN</div>
+        </div>
+        <div class="background-image">
+            <img src="assets/bg.jpg" alt="Background image of a jungle">
+        </div>
+    </div>
+    <div class="signup">
+        <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</h1>
+        <h1>You <em>know</em> you want to.</h1>
+
+        <div class="signup-panel">
+            <h2>Let's do this!</h2>
+            <form action="">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" name="first_name" id="firstname">
+
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" name="last_name">
+
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone">
+            </form>
+        </div>
+        <button type="submit">Create Account</button>
+        Already have an account? <a href="">Log in </a>
+    </div>
 </body>
 </html>
